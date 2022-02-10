@@ -1,0 +1,13 @@
+// Trong trường hợp chưa tạo 1 user thì thực hiện identity user bằng cách
+git config user.email "oneyear131020@gmail.com"
+git config user.name "Hieu"
+
+/// Tạo 1 project
+	git init // tạo 
+	git status  // kiểm tra file có bên trong
+	git add myfile  // add file vào
+	git status  // kiểm tra lai file đã được add chưa
+	git commit -m "Add file  name_file" // công nhận lần cập nhật project
+	git log   // kiểm tra lịch sử cập nhật project
+	git remote add origin ...git // thêm 1 kho lưu trữ từ xa có tên là origin
+	git push -u origin master   // đẩy file lên trên remote respo
